@@ -1,0 +1,23 @@
+{
+  "name": "csvreaderandwriter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev node index.js",
+    "start-dev": "cross-env NODE_ENV=dev node index.js",
+    "start-sys": "cross-env NODE_ENV=sys node index.js",
+    "start-uat": "cross-env NODE_ENV=uat node index.js",
+    "start-prod": "cross-env NODE_ENV=prod node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cross-env": "^7.0.3",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv-flow": "^4.1.0"
+  }
+}
